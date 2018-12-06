@@ -54,8 +54,8 @@ Order="BH_LR_SC06_LoanEditAndSaveLoan_TR01_Login__*delimiter*__BH_LR_SC06_LoanEd
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 BH_LR_SC06_LoanEditAndSaveLoan_TR01_Login=
 BH_LR_SC06_LoanEditAndSaveLoan_TR02_ClickStudentLoanRepay=

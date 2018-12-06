@@ -473,10 +473,6 @@ Action()
 		"Snapshot=t81.inf", 
 		LAST);
 		
-	
-	
-	
- 
 		
 		if (atoi(lr_eval_string("{StudentLoans_Count}")) > 0)
 	

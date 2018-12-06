@@ -18,11 +18,11 @@
     <FileEntry Name="NewParam_1.dat" Filter="2" />
     <FileEntry Name="P_URL.dat" Filter="2" />
     <FileEntry Name="P_UserName.dat" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
     <FileEntry Name="Bookmarks.xml" Filter="2" />
     <FileEntry Name="Breakpoints.xml" Filter="2" />
     <FileEntry Name="ScriptVcsSettings.xml" Filter="2" />
     <FileEntry Name="UserTasks.xml" Filter="2" />
-    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
     <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="EditOtherStudentLoan_UAT.prm" Filter="1" />
     <FileEntry Name="LoanEditAndSaveLoan.prm.bak" Filter="1" />

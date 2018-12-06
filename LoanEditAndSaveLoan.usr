@@ -1,0 +1,65 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=LoanEditAndSaveLoan.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.53.0.1203
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="BH_LR_SC06_LoanEditAndSaveLoan_TR01_Login__*delimiter*__BH_LR_SC06_LoanEditAndSaveLoan_TR02_ClickStudentLoanRepay__*delimiter*__BH_LR_SC06_LoanEditAndSaveLoan_TR03_ClickEdit__*delimiter*__BH_LR_SC06_LoanEditAndSaveLoan_TR04_ClickSave__*delimiter*__BH_LR_SC06_LoanEditAndSaveLoan_TR05_StopPayLoan__*delimiter*__BH_LR_SC06_LoanEditAndSaveLoan_TR06_LogOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+BH_LR_SC06_LoanEditAndSaveLoan_TR01_Login=
+BH_LR_SC06_LoanEditAndSaveLoan_TR02_ClickStudentLoanRepay=
+BH_LR_SC06_LoanEditAndSaveLoan_TR03_ClickEdit=
+BH_LR_SC06_LoanEditAndSaveLoan_TR04_ClickSave=
+BH_LR_SC06_LoanEditAndSaveLoan_TR05_StopPayLoan=
+BH_LR_SC06_LoanEditAndSaveLoan_TR06_LogOut=
